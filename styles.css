@@ -36,7 +36,7 @@ body{
     flex-direction: column;
     height: 500px;
     background-color: #1f2937;
-    flex:auto;
+    flex: 1;
 }
 
 .nav {
@@ -69,7 +69,7 @@ p {
 } 
 
 
-.one{
+a.one{
     margin-left: auto;
 }
 
@@ -88,6 +88,7 @@ p {
     flex-direction: column;
     gap:10px;
     padding:0;
+    min-width:400px;
 }
 
 .card,.image{
@@ -97,7 +98,7 @@ p {
 .image {
     
     height:auto;
-    width:600px;
+    width:500px;
 }
 img {
 
@@ -127,5 +128,36 @@ button {
     border-radius: 8px;
     outline: none;
     font-size:18px;
+}
+
+.content-one {
+    padding: 25px 100px;
+    
+}
+
+.cards-head {
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.cards {
+    display:flex;
+    gap:24px;
+}
+
+.main-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-icon {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+
 }
 
