@@ -19,6 +19,8 @@ body{
     align-items: center;
     color: white;
     background-color: #1f2937;
+    padding:32px;
+    box-sizing: border-box;
 
 }
 
@@ -131,11 +133,10 @@ button {
 }
 
 .content-one {
-    flex: auto;
+    flex: 1;
     padding: 80px;
     display:flex;
     flex-direction: column;
-    height:400px;
     
 }
 
@@ -179,15 +180,27 @@ button {
 
 .content-two {
     background-color: #e5e7eb;
-    padding: 100px;
+    padding: 120px 360px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    flex:1;
 }
 
 .quote {
     color: #1f2937;
     font-size: 36px;
     font-weight: 300;
+    min-width: 1000px;
 }
 
 .sign {
-    margin: auto;
+    font-weight: 500;
+    font-size: 20px;
+    align-self: flex-end;
+    min-width: 205px;
+}   
+
+.content-three {
+    flex: 1;
 }
